@@ -23,11 +23,12 @@ public class Car
 
     public Car()
     {
-        
+        CarLot.numberOfCars++;
     }
 
     public Car(string make, int year, string model, string engineNoise, string honkNoise, bool isDrivable)
     {
+        CarLot.numberOfCars++;
         Make = make;
         Year = year;
         Model = model;
